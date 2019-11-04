@@ -30,13 +30,13 @@ class Firewall:
                 return True
         return False
 
-class Rule:
-    def __init__(self, direction, protocol, port_r, ip_address_r):
-        """ Standardize port and ip_address to all be ranges"""
-        self.direction = direction
-        self.protocol = protocol
-        self.port_r = port_r #list containing start and end (inclusive)
-        self.ip_address_r = ip_address_r #list containing start and end (inclusive)
+# class Rule:
+#     def __init__(self, direction, protocol, port_r, ip_address_r):
+#         """ Standardize port and ip_address to all be ranges"""
+#         self.direction = direction
+#         self.protocol = protocol
+#         self.port_r = port_r #list containing start and end (inclusive)
+#         self.ip_address_r = ip_address_r #list containing start and end (inclusive)
 
 ### helper functions ###
 
